@@ -2,12 +2,18 @@
 
 ## Motivation
 
-Since the launch of mainnet people have been preparing for the EOS referendum and this proposal will deploy to production a community-developed forum smart contract where this referendum can take place.
+Since the launch of the EOS mainnet, users have been awaiting the first referendum. This proposal looks to deploy to production a community-developed forum smart contract that will be able to facilitate the hosting of proposals and votes on-chain.
 
-For more details about the background on the forum, please read our blog post.
+For more background information, you can read prior blog posts:
 https://www.eoscanada.com/en/eos-referendum-beta-announcement
+https://www.eoscanada.com/en/eosio.forum-referendum-contract-update
+https://www.eoscanada.com/en/a-proposed-referendum-tool-for-the-eos-mainnet-eosio.forum
 
-(Thanks to `eosrio` for the template for those multisig proposal write-ups.)
+Credits:
+- Thanks to [EOS Rio](https://web.eosrio.io/) for the template for multisig proposal write-ups.
+- Thanks to [Dan Larimer](https://github.com/bytemaster) for the original sample contract that inspired the final version
+- Thanks to the other Block Producer teams who have helped with the project: [EOS Nation](https://www.eosnation.io/), [EOS42](https://eos42.io/), [EOS Tribe](https://eostribe.io/), [GenerEOS](https://www.genereos.io/), [Greymass](https://greymass.com/)
+- Thanks to community feedback we have received, notably from: @Bootl3r, @mountain_cloud, and @thomasbcox
 
 ## Proposal review
 
@@ -15,11 +21,11 @@ Using `eosc` or `cleos` we can perform a detailed review of the multisig proposa
 
 ### Walkthrough
 
-1. We create a new account named `eosio.forum`, created by `eosio` with an authority structure so that `eosio` retains control over the official community forum.
-2. We do not need to delegate CPU or bandwidth to the `eosio.forum` account itself, but if the need arises this can be done by anyone without a multisig proposal.
-3. We need to buy enough RAM (approximately 300 KB) to store the contract and ABI.
-4. We deploy the contract (the latest version as published on https://github.com/eoscanada/eosio.forum)
-5. We deploy the associated ABI, that includes the ricardian contracts.
+1. Block Producers create a new account named `eosio.forum`, created by `eosio` with an authority structure so that `eosio` retains control over the official community forum.
+2. Block Producers do not need to delegate CPU or bandwidth to the `eosio.forum` account itself, but if the need arises this can be done by anyone without a multisig proposal.
+3. Block Producers authorize the purchase of enough RAM (approximately 300 KB) to store the contract and ABI.
+4. Block Producers deploy the contract (the latest version as published on https://github.com/eoscanada/eosio.forum)
+5. Block Producers deploy the associated ABI, which includes the Ricardian Contracts.
 
 ### Detailed review output
 

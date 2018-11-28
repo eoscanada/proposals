@@ -5,8 +5,11 @@
 Since the launch of the EOS mainnet, users have been awaiting the first referendum. This proposal looks to deploy to production a community-developed forum smart contract that will be able to facilitate the hosting of proposals and votes on-chain.
 
 For more background information, you can read prior blog posts:
+
 https://www.eoscanada.com/en/eos-referendum-beta-announcement
+
 https://www.eoscanada.com/en/eosio.forum-referendum-contract-update
+
 https://www.eoscanada.com/en/a-proposed-referendum-tool-for-the-eos-mainnet-eosio.forum
 
 Credits:

@@ -4,8 +4,10 @@
 
 Since the launch of mainnet people have been preparing for the EOS referendum and this proposal will deploy to production a community-developed forum smart contract where this referendum can take place.
 
-Credits:
-- Thanks to `eosrio` for the template for those multisig proposal write-ups.
+For more details about the background on the forum, please read our blog post.
+https://www.eoscanada.com/en/eos-referendum-beta-announcement
+
+(Thanks to `eosrio` for the template for those multisig proposal write-ups.)
 
 ## Proposal review
 

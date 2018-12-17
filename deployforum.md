@@ -46,10 +46,10 @@ Proposal name: forumstep1
 ----------------------- TRANSACTION HEADER --------------------------
 ---------------------------------------------------------------------
 
-Expiration: 2019-01-21 12:14:13 +0000 UTC (in 833h0m15.479134s, analysis time: 2018-12-17 19:13:57.520866 +0000 UTC)
-Expiration: 2019-01-21 12:14:13 +0000 UTC
-Reference block number: 40917
-Reference block prefix: 4eb3c321
+Expiration: 2019-01-21 12:47:00 +0000 UTC (in 833h19m4.086724s, analysis time: 2018-12-17 19:27:55.913276 +0000 UTC)
+Expiration: 2019-01-21 12:47:00 +0000 UTC
+Reference block number: 44839
+Reference block prefix: e7c456d2
 Maximum net usage words (of 8 bytes, 0 = unlimited): 0
 Maximum CPU usage in milliseconds (0 = unlimited): 0
 Number of seconds to delay transaction (cancellable during that time): 0
@@ -60,9 +60,9 @@ Number of seconds to delay transaction (cancellable during that time): 0
 
 Context-free actions: 0
 
-Actions: 2
+Actions: 3
 1. Action eosio::newaccount, authorized by: eosio@active
-Create a new account named "canada111111", created by "eoscanadacom" with the following authority structure:
+Create a new account named "eosio.forum", created by "eosio" with the following authority structure:
 {
   "active": {
     "threshold": 1,
@@ -91,8 +91,15 @@ Create a new account named "canada111111", created by "eoscanadacom" with the fo
 }
 
 
-2. Action eosio::buyrambytes, authorized by: eosio@active
-Account "eoscanadacom" is buying RAM for receiver "canada111111", for 307200 bytes (whatever the market value)
+2. Action eosio::delegatebw, authorized by: eosio@active
+Delegate bandwidth from account "eosio" to receiver "eosio.forum"
+- Network bandwidth stake increase: 0.0000 EOS
+- CPU bandwidth stake increase: 0.0000 EOS
+Transfer ownership of stakes? false
+
+
+3. Action eosio::buyrambytes, authorized by: eosio@active
+Account "eosio" is buying RAM for receiver "eosio.forum", for 307200 bytes (whatever the market value)
 ```
 
 #### Second proposal : Set Code, Set ABI

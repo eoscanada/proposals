@@ -46,10 +46,10 @@ Proposal name: forumstep1
 ----------------------- TRANSACTION HEADER --------------------------
 ---------------------------------------------------------------------
 
-Expiration: 2019-01-21 12:47:00 +0000 UTC (in 833h19m4.086724s, analysis time: 2018-12-17 19:27:55.913276 +0000 UTC)
-Expiration: 2019-01-21 12:47:00 +0000 UTC
-Reference block number: 44839
-Reference block prefix: e7c456d2
+Expiration: 2019-01-21 12:49:09 +0000 UTC (in 833h18m52.208738s, analysis time: 2018-12-17 19:30:16.791262 +0000 UTC)
+Expiration: 2019-01-21 12:49:09 +0000 UTC
+Reference block number: 45094
+Reference block prefix: 12ed3db6
 Maximum net usage words (of 8 bytes, 0 = unlimited): 0
 Maximum CPU usage in milliseconds (0 = unlimited): 0
 Number of seconds to delay transaction (cancellable during that time): 0
@@ -60,7 +60,7 @@ Number of seconds to delay transaction (cancellable during that time): 0
 
 Context-free actions: 0
 
-Actions: 3
+Actions: 2
 1. Action eosio::newaccount, authorized by: eosio@active
 Create a new account named "eosio.forum", created by "eosio" with the following authority structure:
 {
@@ -91,14 +91,7 @@ Create a new account named "eosio.forum", created by "eosio" with the following 
 }
 
 
-2. Action eosio::delegatebw, authorized by: eosio@active
-Delegate bandwidth from account "eosio" to receiver "eosio.forum"
-- Network bandwidth stake increase: 0.0000 EOS
-- CPU bandwidth stake increase: 0.0000 EOS
-Transfer ownership of stakes? false
-
-
-3. Action eosio::buyrambytes, authorized by: eosio@active
+2. Action eosio::buyrambytes, authorized by: eosio@active
 Account "eosio" is buying RAM for receiver "eosio.forum", for 307200 bytes (whatever the market value)
 ```
 

@@ -37,7 +37,6 @@ Using `eosc` or `cleos` we can perform a detailed review of the multisig proposa
 
 ```
 $ eosc multisig review eoscanadaops forumstep1
-
 Proposer: eoscanadaops
 Proposal name: forumstep1
 
@@ -46,10 +45,10 @@ Proposal name: forumstep1
 ----------------------- TRANSACTION HEADER --------------------------
 ---------------------------------------------------------------------
 
-Expiration: 2019-01-21 12:49:09 +0000 UTC (in 833h18m52.208738s, analysis time: 2018-12-17 19:30:16.791262 +0000 UTC)
-Expiration: 2019-01-21 12:49:09 +0000 UTC
-Reference block number: 45094
-Reference block prefix: 12ed3db6
+Expiration: 2019-01-24 17:04:02 +0000 UTC (in 833h17m10.592206s, analysis time: 2018-12-20 23:46:51.407794 +0000 UTC)
+Expiration: 2019-01-24 17:04:02 +0000 UTC
+Reference block number: 2562
+Reference block prefix: 95ba953b
 Maximum net usage words (of 8 bytes, 0 = unlimited): 0
 Maximum CPU usage in milliseconds (0 = unlimited): 0
 Number of seconds to delay transaction (cancellable during that time): 0

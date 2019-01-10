@@ -100,7 +100,7 @@ Account "eosio" is buying RAM for receiver "eosio.forum", for 307200 bytes (what
 **It is not possible to proactively create this proposal since we have determined (after a first attempt), that setcode / setabi will perform a lower level check which will fail if done before newaccount has been succesfully completed**
 
 ```
-$ eosc multisig review eoscanadaops forumstep2
+$ eosc multisig review eoscanadaops deployforum
 
 Proposer: eoscanadaops
 Proposal name: deployforum
